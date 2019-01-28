@@ -1,0 +1,5 @@
+{
+  "databaseURL": "https://<your-app-name>.firebaseio.com",
+  "validUsers": ["test@example.com", "example@test.com"],
+  "port": "8000"
+}

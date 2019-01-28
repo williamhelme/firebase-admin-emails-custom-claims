@@ -1,0 +1,22 @@
+{
+  "name": "firebase-admin-emails-custom-claims",
+  "version": "1.0.0",
+  "description": "Creates an admin attribute via custom claims on an authenticated firebase user based on whether the email provided matches one of those specified in a config file",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "firebase",
+    "custom-claims",
+    "admin"
+  ],
+  "author": "William Helme",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.5.1"
+  }
+}
